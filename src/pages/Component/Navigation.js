@@ -2,7 +2,7 @@ import ColoredBtn from "./ColoredBtn";
 import {Fragment, useState} from "react";
 import {ChevronDown, ChevronUp} from 'lucide-react';
 
-export function Navigation({colors, func}) {
+export default function Navigation({colors, func}) {
     //Drop Down Control
     const [isOpen, setIsOpen] = useState(false);
 

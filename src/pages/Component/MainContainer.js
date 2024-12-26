@@ -1,7 +1,7 @@
 "use client"
 import {useState} from "react";
-import {Navigation} from "./Navigation";
-import {Notes} from "./NoteContainer";
+import Navigation from "./Navigation";
+import Notes from "./NoteContainer";
 import {v4 as uuidv4} from 'uuid';
 import {Github} from 'lucide-react';
 

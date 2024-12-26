@@ -2,7 +2,7 @@
 import {Fragment} from "react";
 import ColoredNote from "./ColoredNote";
 
-export function Notes({notes, func}) {
+export default function Notes({notes, func}) {
 
     return (
         <Fragment>
