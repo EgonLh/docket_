@@ -35,7 +35,7 @@ function Container() {
         <div className={"m-4 p-2 rounded-lg container-lg border shadow-md bg-white min-h-3.5 max-h-full "}>
             {/*ICON*/}
             <div className={"px-4 flex md:justify-end justify-between items-center "}>
-                <a href={""}
+                <a href={"https://github.com/EgonLh/docket_"}
                    className={"hover:shadow rounded p-1 transition-all delay-100 duration-500 ease-in-out hover:p-2 bg-black text-white sticky top-0"}><Github/></a>
                 {/*Mobile NAV */}{/*core error > (color)=> forgot parameter :> */}
                 <div className={" md:hidden flex justify-end "}>
